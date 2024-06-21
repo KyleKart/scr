@@ -17,7 +17,6 @@
 
             if (imageName && fileType) {
                 const imageUrl = `https://kylekart.github.io/scr/${imageName}.${fileType}`;
-                // Update og:url and og:image to the constructed image URL
                 document.getElementById('dynamic-og-url').setAttribute('content', imageUrl);
                 document.getElementById('dynamic-og-image').setAttribute('content', imageUrl);
                 document.getElementById('dynamic-twitter-image').setAttribute('content', imageUrl);
